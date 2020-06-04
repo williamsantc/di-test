@@ -9,3 +9,4 @@ const userServiceInstance = new UserService(passwordServiceInstance, loggerServi
 
 
 userServiceInstance.createUser({ username: 'williamsantc', password: 'loremipsum' })
+
