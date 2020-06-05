@@ -4,6 +4,8 @@
   "description": "Simple DI example",
   "main": "dist/index.js",
   "scripts": {
+    "prestart": "npm run build",
+    "start": "node dist/index.js",
     "prebuild": "rimraf dist",
     "build": "tsc"
   },
@@ -11,6 +13,8 @@
   "author": "William Santos",
   "license": "MIT",
   "dependencies": {
+    "injection-js": "^2.3.0",
+    "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "tslib": "^2.0.0",
     "typescript": "^3.9.3"

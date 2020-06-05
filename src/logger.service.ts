@@ -1,3 +1,4 @@
+
 export class LoggerService {
 
     private static _DEFAULT_SCOPE = 'Logger';
